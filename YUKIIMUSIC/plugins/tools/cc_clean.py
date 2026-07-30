@@ -1,36 +1,14 @@
-# Copyright (c) 2025 @SUDEEPBOTS <HellfireDevs>
-# Location: delhi,noida
-#
-# All rights reserved.
-#
-# This code is the intellectual SUDEEPBOTS.
-# You are not allowed to copy, modify, redistribute, or use this
-# code for commercial or personal projects without explicit permission.
-#
-# Allowed:
-# - Forking for personal learning
-# - Submitting improvements via pull requests
-#
-# Not Allowed:
-# - Claiming this code as your own
-# - Re-uploading without credit or permission
-# - Selling or using commercially
-#
-# Contact for permissions:
-# Email: sudeepgithub@gmail.com
-
-import YUKIIMUSIC.yuki_guard
 from pyrogram import Client, filters
 import re
 from io import BytesIO
-from YUKIIMUSIC import app
+from ANIYAXMUSIC import app
 
 def filter_bin(input_text):
     pattern = r'\d{15,16}\D*\d{2}\D*\d{2,4}\D*\d{3,4}'
     matches = re.findall(pattern, input_text)
     return '\n'.join(matches)
 
-@app.on_message(filters.command("clean") & filters.reply)
+@app.on_message(filters.command("sbclean") & filters.reply)
 async def clean_command(client, message):
     if message.reply_to_message.document:
         doc = message.reply_to_message.document
