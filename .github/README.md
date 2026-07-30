@@ -39,7 +39,7 @@ Need a string session for your assistant? Generate it securely here:
   
 Fork this repository before deploying to keep your account safe!
 <p align="center">
-<a href="https://dashboard.heroku.com/new?template=https://github.com/HellfireDevs/YUKIMUSICS"><img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="40"/></a>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/SQBOT0/YUKIMUSICS.git"><img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="40"/></a>
 </p>
 </details>
 
